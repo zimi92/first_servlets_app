@@ -1,0 +1,11 @@
+CREATE TABLE user (`name` varchar(20) not null, `age` BIGINT(20), `start` timestamp default now()
+, `id` INT not null primary key);
+
+ALTER TABLE user ADD `sirname` varchar(20)
+
+INSERT INTO portf1.user (name, age, sirname) values ('Szymon', '12', 'Anio³a');
+INSERT INTO portf1.user (name,age,sirname) values ('Stanislaw', '48','Anio³a'); 
+
+INSERT INTO portf1.user (name,age,sirname) values ('Franciszek', '48','Anio³a'); 
+
+INSERT INTO portf1.user (name,age,sirname) values ('Katarzyna', '48','Nowak');  
