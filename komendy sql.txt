@@ -3,6 +3,8 @@ CREATE TABLE user (`name` varchar(20) not null, `age` BIGINT(20), `start` timest
 
 ALTER TABLE user ADD `sirname` varchar(20)
 
+ALTER TABLE user ADD `Historia` int, `Matematyka` int, `Fizyka` int;
+
 INSERT INTO portf1.user (name, age, sirname) values ('Szymon', '12', 'Anio³a');
 INSERT INTO portf1.user (name,age,sirname) values ('Stanislaw', '48','Anio³a'); 
 
